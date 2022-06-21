@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(to right, #3f5efb, #fc466b);
+    text-align: center;
+}
+
+.wrapper{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    margin: 10px;
+    font-size: 6rem;
+    color: rgb(208,214,218);
+}
+
+.dice-area{
+    margin: 0px 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+p{
+    font-size: 2.5rem;
+    color: rgb(208,214,218);
+}
+
+img{
+    width: 320px;
+}
+
+input{
+    display: flex;
+    margin: 0 auto;
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s ease-out all;
+}
+
+input:hover{
+    transform: scale(1.1);
+}
